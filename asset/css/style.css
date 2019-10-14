@@ -2,6 +2,7 @@ body{
     font-family: 'Cairo', sans-serif;
     background-color: #eeeeee;
     border-top: 5px solid #879846;
+    text-align: right;
  }
  .container {
     max-width: 750px;
@@ -30,4 +31,36 @@ body{
     display: inline-block;
     color: #eeeeee;
     font-size: .9rem
+}
+.product .card-footer a{
+    color: #ffffff;
+    font-size: .9rem;
+}
+.category .content{
+    height: 130px;
+    font-size: .9rem;
+    position: relative;
+    top: -130px;
+    margin-bottom: -130px;
+    background: rgba(0, 0, 0, .5);
+    color: #ffffff;
+}
+.card-img-top{
+    position: relative;
+}
+.category-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.product, .category .content{
+    box-shadow: 0px 6px 4px -4px rgba(0,0,0,0.51);
+}
+.category .btn-section{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: .7rem;
+    padding: 5px 3rem;
+}
+.owl-carousel{
+    direction:ltr;
 }
