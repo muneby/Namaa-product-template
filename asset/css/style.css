@@ -1,49 +1,33 @@
 body{
     font-family: 'Cairo', sans-serif;
     background-color: #eeeeee;
+    border-top: 5px solid #879846;
  }
  .container {
-    max-width: 1140px;
+    max-width: 750px;
 }
-.user a{
-    color: #6f6f6f;
-
+.logo img{
+    max-height: 80px;
 }
- .card-size{
-     font: bold;
- }
- .product{
-    margin-top: 4rem;
- }
- 
- .card-m p ,h4{
-     color: white;
- }
- .card-img{
-    position: absolute;
-     right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(157, 158, 157, 0.3); 
-
-   }
-.btn-section {
-    color: #fff;
-    padding: 2px 70px;
-    border-color: #fff;
+.navbar-light .navbar-toggler{
+    padding: 2px 4px;
+    font-size: 1.05rem;
+    box-shadow: 0px 1px 3px;
+    border: 1px solid #343a40;
 }
-.footer-bottom{  
-    color: white;
-    border-radius: 75px 75px 0px 0px ;
-    height: 200px;
-    background-image: linear-gradient(to bottom right, rgba(34,145,201), rgb(21,90,148)) ;
-
+.cart-icon{
+    font-size: 1.5rem;
 }
 
-.footer-bottom p{
-    font-size: 21px;
-    font-weight: bold;
+.sub-menu{
+    background: #39abf2;
+    text-align: right;
+    border-radius: 3px;
 }
-.footer-top{
-    display: flex;
+.sub-menu a{
+    border-left: 1px solid #eeeeee;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #eeeeee;
+    font-size: .9rem
 }
