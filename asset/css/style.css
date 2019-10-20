@@ -64,3 +64,22 @@ body{
 .owl-carousel{
     direction:ltr;
 }
+.footer-bottom{
+    background: rgb(26,89,143);
+    background: linear-gradient(90deg, rgba(26,89,143,1) 0%, rgba(36,142,200,1) 100%);
+    border-radius: 25px 25px 0px 0;
+    line-height: 1rem;
+}
+#categories .owl-carousel .owl-nav .owl-prev,#categories .owl-carousel .owl-nav .owl-next {
+    background:  rgba(100, 100, 100, .5) ;
+    font-size: 30px ;
+    position: absolute;
+    width: 30px;
+    bottom: 50%;
+    left: 1px;
+    color: #ffffff;
+}
+#categories .owl-carousel .owl-nav .owl-next {    
+    right: 1px;
+    left: auto;
+}

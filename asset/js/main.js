@@ -7,7 +7,7 @@ $(document).ready(function () {
         autoplay:true,
         responsive:{
             0:{
-                items:1,
+                items:2,
                 nav:true
             },
             500:{
@@ -15,11 +15,12 @@ $(document).ready(function () {
                 nav:false
             },
             1000:{
-                items:4,
+                items:2,
                 nav:true,
-                loop:false
             }
         }
-    })
+    });
+
+new WOW().init();
 
 });
