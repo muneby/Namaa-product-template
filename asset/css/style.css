@@ -83,3 +83,6 @@ body{
     right: 1px;
     left: auto;
 }
+.footer-bottom{
+    line-height: 1.5rem;
+}
