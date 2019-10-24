@@ -21,7 +21,7 @@ $(document).ready(function () {
             },
             500: {
                 items: 2,
-                nav: false
+                nav: true
             },
             1000: {
                 items: 3,
