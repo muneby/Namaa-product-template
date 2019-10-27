@@ -102,3 +102,11 @@ body{
       position: relative;
       top: 40%;
   }
+  .product .progress{
+      height: 20px;
+  }
+  .product .progress .progress-bar{
+    height: 20px;
+    direction: rtl;
+    background-color: #879846;
+  }
